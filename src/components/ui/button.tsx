@@ -10,7 +10,7 @@ const Button: React.FC<React.ButtonHTMLAttributes<HTMLButtonElement>> = ({
   return (
     <button
       className={cn(
-        "inline-block px-4 py-2 h-10 text-sm font-medium bg-lime-400 text-black rounded-md",
+        "inline-block px-4 py-2 h-10 text-sm font-medium bg-lime-400 text-black rounded-full",
         className,
       )}
       {...props}
