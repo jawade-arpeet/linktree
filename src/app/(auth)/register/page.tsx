@@ -22,6 +22,7 @@ const RegisterPage = () => {
   };
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     console.log(credentials);
   };
 
