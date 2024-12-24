@@ -9,7 +9,12 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   return (
     <html lang="en">
-      <body className={cn("min-h-screen antialiased", dmSans.className)}>
+      <body
+        className={cn(
+          "min-h-screen antialiased bg-black text-white",
+          dmSans.className,
+        )}
+      >
         {children}
       </body>
     </html>

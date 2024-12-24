@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const HomePage = () => {
   return (
-    <main className={"h-screen w-screen bg-black text-white"}>
+    <main className={"h-screen w-screen"}>
       {/* HEADER */}
 
       <header className={"max-w-screen-md mx-auto rounded-full px-6 py-4"}>
